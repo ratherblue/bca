@@ -52,22 +52,25 @@
       <@charset />
       <title>${title}</title>
       <@defaultMetaTags />
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
       <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     </head>
     <body<#if bodyClass?has_content> class="${bodyClass}"</#if> itemscope itemtype="${itemtype}">
-      <meta itemprop="dateModified" content="${pp.now?iso("America/Los_Angeles")}">
-      <@header.header />
-      <div class="page-width">
-        <@pageNav activeTab=activeTab />
+      <div id="container" class="hfeed">
+        <meta itemprop="dateModified" content="${pp.now?iso("America/Los_Angeles")}">
+        <div id="header">
+          <@header.header />
+        </div>
+        <div class="page-width">
+          <@pageNav activeTab=activeTab />
+        </div>
+        <div id="wrapper" class="clearfix">
+          </#compress><#nested /><#compress>
+        </div>
       </div>
-      <main class="page-width" role="main">
-        </#compress><#nested /><#compress>
-      </main>
       <#-- footer -->
-      <@footer.wrapper>
-        <@footer.copyright />
-      </@footer.wrapper>
+      <@footer.wrapper />
     </body>
     </html>
   </#compress>

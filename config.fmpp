@@ -16,7 +16,7 @@ modes: [
   copy(*.txt, /css/styles.css, favicon.png, CNAME)
 ]
 data: {
-  domain: example.com
+  domain: brianchurcharchitecture.com
   googleUA: UA-42813118-1
   styles: tdd(rev-manifest.json)
 }
