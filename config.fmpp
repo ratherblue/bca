@@ -17,6 +17,4 @@ modes: [
 ]
 data: {
   domain: brianchurcharchitecture.com
-  googleUA: UA-42813118-1
-  styles: tdd(rev-manifest.json)
 }

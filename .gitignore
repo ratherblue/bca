@@ -110,9 +110,6 @@ dist
 # Generated files
 docs/*
 !docs/.gitkeep
-src/css/*
-!src/css/.gitkeep
-!src/css/style.css
 
 # OS X
 .DS_Store
