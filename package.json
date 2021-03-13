@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/ratherblue/static-boilerplate#readme",
   "dependencies": {
-    "less": "^3.10.3"
+    "less": "^3.13.1"
   }
 }
