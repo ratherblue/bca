@@ -4,11 +4,7 @@ node_js:
 dist: trusty
 sudo: required
 
-before_script:
-  - npm install
-
 script:
-  - npm run build
   - bin/fmpp
 
 deploy:

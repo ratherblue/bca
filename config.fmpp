@@ -12,8 +12,8 @@ borders: [
   header("<#import '/templates/common.ftl' as c />", sitemap.xml)
 ]
 modes: [
-  ignore(/templates/, /less/, *.js, .DS_Store, /data/, rev-manifest.json)
-  copy(*.txt, /css/styles.css, favicon.png, CNAME)
+  ignore(/templates/, *.js, .DS_Store, /data/, rev-manifest.json)
+  copy(*.txt, /css/style.css, favicon.png, CNAME)
 ]
 data: {
   domain: brianchurcharchitecture.com
