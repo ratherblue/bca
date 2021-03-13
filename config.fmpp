@@ -18,3 +18,4 @@ modes: [
 data: {
   domain: brianchurcharchitecture.com
 }
+turns: [turn(2, sitemap.xml)]

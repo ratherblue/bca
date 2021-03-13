@@ -1390,9 +1390,6 @@ form div {
   clear: both;
 }
 
-#content .sticky p {
-}
-
 /* =Templates (Landing Page)
 -------------------------------------------------------------- */
 .page-template-landing-page-php .menu, .page-template-landing-page-php .top-menu, .page-template-landing-page-php .main-nav, .page-template-landing-page-php .footer-menu, .page-template-landing-page-php .sub-header-menu {
@@ -1511,11 +1508,6 @@ filter: grayscale(100%);*/
 
 .page-parent .sub-pages a:hover {
   color: #FFF;
-}
-
-.page-parent .sub-pages a:hover .wp-post-image {
-  /*-webkit-filter: grayscale(0%);
-filter: grayscale(0%);*/
 }
 
 .page-parent .sub-pages li {
@@ -1745,9 +1737,6 @@ filter: grayscale(0%);*/
   margin: 0 15px 0 0;
 }
 
-#colophon-widget ul {
-}
-
 .colophon-widget {
   background: none;
   min-height: 0;
@@ -1755,9 +1744,6 @@ filter: grayscale(0%);*/
 
 .colophon-widget select, .colophon-widget input[type="text"], .colophon-widget input[type="password"], .colophon-widget input[type="email"] {
   width: 100%;
-}
-
-#top-widget {
 }
 
 .top-widget {
@@ -2073,9 +2059,6 @@ ul.menu > li:hover {
   padding: 0 35px;
 }
 
-.menu .page-item-59 > a {
-}
-
 /* the studio */
 .menu .page-item-24 > a {
   padding: 0 34px;
@@ -2121,9 +2104,6 @@ ul.menu > li:hover {
   z-index: 999;
 }
 
-.sb-holder:focus .sb-selector {
-}
-
 .sb-selector {
   display: block;
   height: 30px;
@@ -2164,12 +2144,6 @@ ul.menu > li:hover {
 .sb-holder-disabled {
   background-color: #3c3c3c;
   border: 1px solid #515151;
-}
-
-.sb-holder-disabled .sb-holder {
-}
-
-.sb-holder-disabled .sb-toggle {
 }
 
 .sb-options {
@@ -2507,9 +2481,6 @@ ul.menu > li:hover {
   margin: 0;
 }
 
-.commentlist .bypostauthor {
-}
-
 .commentlist li cite {
   color: #111;
   font-size: 1.1em;
@@ -2537,9 +2508,6 @@ ul.menu > li:hover {
   vertical-align: middle;
 }
 
-.comment-author .fn {
-}
-
 .comment-author .says {
   color: #999;
 }
@@ -2563,9 +2531,6 @@ ul.menu > li:hover {
 
 .comment-body p {
   clear: both;
-}
-
-.comment-body .reply {
 }
 
 .pingback, .trackback {
@@ -2948,14 +2913,6 @@ media queries are included in your style.css
   }
 }
 
-/*	Retina (HiDPI) Display
-  http://www.quirksmode.org/blog/archives/2013/06/devicepixelrati.html
--------------------------------------------------------------- */
-@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio:3/2), only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5) {
-  body {
-  }
-}
-
 /* =Responsive (Mobile) Design
 -------------------------------------------------------------- */
 @media screen and (max-width: 1010px) {
@@ -3032,9 +2989,6 @@ media queries are included in your style.css
 }
 
 @media screen and (max-width: 650px) {
-  body {
-  }
-
   #logo {
       float: none;
       margin: 0;
@@ -3235,9 +3189,6 @@ media queries are included in your style.css
 }
 
 @media screen and (max-width: 480px) {
-  body {
-  }
-
   #logo {
       float: none;
       text-align: center;
@@ -3290,9 +3241,6 @@ media queries are included in your style.css
 }
 
 @media screen and (max-width: 320px) {
-  body {
-  }
-
   #featured p {
       font-size: 12px;
       line-height: 1.5em;
@@ -3321,9 +3269,6 @@ media queries are included in your style.css
 }
 
 @media screen and (max-width: 240px) {
-  body {
-  }
-
   #featured p {
       font-size: 11px;
       line-height: 1.5em;
