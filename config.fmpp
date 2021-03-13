@@ -1,0 +1,22 @@
+# encoding: UTF-8
+sourceEncoding: UTF-8
+outputEncoding: UTF-8
+urlEscapingCharset: UTF-8
+sourceRoot: src
+outputRoot: docs
+logFile: log.fmpp
+caseSensitive
+timeZone: America/Los_Angeles
+borders: [
+  header("<#import '/templates/common.ftl' as c />", **/*.html, /portfolio/*.ftl)
+  header("<#import '/templates/common.ftl' as c />", sitemap.xml)
+]
+modes: [
+  ignore(/templates/, /less/, *.js, .DS_Store, /data/, rev-manifest.json)
+  copy(*.txt, /css/styles.css, favicon.png, CNAME)
+]
+data: {
+  domain: example.com
+  googleUA: UA-42813118-1
+  styles: tdd(rev-manifest.json)
+}
