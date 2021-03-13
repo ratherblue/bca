@@ -128,7 +128,6 @@ body {
   font-family: 'Oxygen', sans-serif;
   font-weight: 300;
   font-size: 14px;
-  font-smoothing: antialiased;
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
 }
@@ -2761,9 +2760,6 @@ img.wp-post-image, img.attachment-full, img.attachment-large, img.attachment-med
   width: 100%;
 }
 
-table.shop_table {
-}
-
 table.cart td.actions .coupon .input-text, table.cart td.actions .coupon .input-text {
   cursor: text;
 }
@@ -2938,9 +2934,6 @@ media queries are included in your style.css
 }
 
 @media screen and (max-width: 980px) {
-  body {
-  }
-
   .grid, .grid-right {
       float: none;
   }
