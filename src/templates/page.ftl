@@ -71,6 +71,33 @@
       </div>
       <#-- footer -->
       <@footer.wrapper />
+      <script src="./jquery-3.6.0.min.js"></script>
+      <script type="text/javascript">
+        jQuery(document).ready(function($) {
+          var targetImage = $(".attachment-post-thumbnail")[0];
+
+          $(".gallery a").click(function(e) {
+            e.preventDefault();
+          });
+
+          //preload images
+          var images = [];
+
+        $(".gallery img:first").addClass("attachment-thumbnail-active");
+          $(".gallery img").click(function(e) {
+            e.stopPropagation();
+            e.preventDefault();
+            var clickedImage = e.target;
+            $(".attachment-thumbnail-active").removeClass("attachment-thumbnail-active");
+            $(clickedImage).addClass("attachment-thumbnail-active");
+            targetImage.src = clickedImage.src.replace("-84x50", "");
+            targetImage.srcset = '';
+          }).each(function(index) {
+            images[index] = new Image();
+            images[index].src = this.src.replace("-84x50", "");
+          });
+        });
+        </script>
     </body>
     </html>
   </#compress>
