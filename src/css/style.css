@@ -2079,7 +2079,7 @@ ul.menu > li:hover {
 /* =Primary Main Menu IE Fixes
 -------------------------------------------------------------- */
 .ie7 .menu ul {
-  background: url(images/ie7-fix.gif) repeat;
+  background: url(../images/ie7-fix.gif) repeat;
 }
 
 .ie7 .menu li li a {
@@ -2126,7 +2126,7 @@ ul.menu > li:hover {
 }
 
 .sb-toggle {
-  background: url(images/select-icons.png) 0 6px no-repeat;
+  background: url(../images/select-icons.png) 0 6px no-repeat;
   display: block;
   height: 30px;
   outline: none;
@@ -2137,7 +2137,7 @@ ul.menu > li:hover {
 }
 
 .sb-toggle-open {
-  background: url(images/select-icons.png) 0 -45px no-repeat;
+  background: url(../images/select-icons.png) 0 -45px no-repeat;
 }
 
 .sb-holder-disabled {
@@ -2366,7 +2366,7 @@ ul.menu > li:hover {
 /* =Sub Header Menu IE Fixes
 -------------------------------------------------------------- */
 .ie7 .sub-header-menu ul {
-  background: url(images/ie7-fix.gif) repeat;
+  background: url(../images/ie7-fix.gif) repeat;
 }
 
 .ie7 .sub-header-menu li li a {
@@ -3137,12 +3137,12 @@ media queries are included in your style.css
       height: 30px;
       width: 23px;
       margin-left: -30px;
-      background: url('images/select-icons.png') 0 5px no-repeat;
+      background: url('../images/select-icons.png') 0 5px no-repeat;
       cursor: pointer;
   }
 
   .js .main-nav a#responsive_menu_button.responsive-toggle-open {
-      background: url('images/select-icons.png') 0 -46px no-repeat;
+      background: url('../images/select-icons.png') 0 -46px no-repeat;
   }
 
   .top-menu, .footer-menu li {

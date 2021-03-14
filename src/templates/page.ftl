@@ -52,12 +52,12 @@
       <@charset />
       <title>${title}</title>
       <@defaultMetaTags />
+      <link rel="icon" href="${pp.home}favicon.ico" type="image/x-icon">
       <script src="${pp.home}js/jquery.js?ver=1.12.4"></script>
       <script src="${pp.home}js/jquery-migrate.min.js?ver=1.4.1"></script>
       <script src="${pp.home}js/responsive-modernizr.js?ver=2.6.1"></script>
       <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="${pp.home}css/style.css">
-      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     </head>
     <body<#if bodyClass?has_content> class="${bodyClass}"</#if> itemscope itemtype="${itemtype}">
       <div id="container" class="hfeed">

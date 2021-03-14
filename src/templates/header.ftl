@@ -21,7 +21,6 @@
 
 <#macro menu>
   <div class="main-nav">
-    <div id="responsive_current_menu_item">Home</div>
     <ul class="menu">
       <li class="current_page_item"><a href="${pp.home}">Home</a></li>
       <li class="page_item page-item-66 page_item_has_children">
@@ -68,6 +67,5 @@
       </li>
       <li class="page_item page-item-24"><a href="${pp.home}studio/">The Shack</a></li>
     </ul>
-    <a id="responsive_menu_button"></a>
   </div>
 </#macro>
