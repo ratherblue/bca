@@ -62,11 +62,10 @@
         <div id="header">
           <@header.header />
         </div>
-        <div class="page-width">
-          <@pageNav activeTab=activeTab />
-        </div>
         <div id="wrapper" class="clearfix">
-          </#compress><#nested /><#compress>
+          <div id="content-full" class="grid col-940">
+            </#compress><#nested /><#compress>
+          </div>
         </div>
       </div>
       <#-- footer -->
