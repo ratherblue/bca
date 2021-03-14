@@ -70,7 +70,7 @@
       </div>
       <#-- footer -->
       <@footer.wrapper />
-      <script src="./jquery-3.6.0.min.js"></script>
+      <script src="/bca/js/jquery-3.6.0.min.js"></script>
       <script type="text/javascript">
         jQuery(document).ready(function($) {
           var targetImage = $(".attachment-post-thumbnail")[0];
