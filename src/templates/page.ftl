@@ -108,6 +108,112 @@
             images[index].src = this.src.replace("-84x50", "");
           });
         });
+
+        jQuery(document).ready(function ($) {
+          var menuImages = $(".menu-images");
+
+          if ($(".page-item-14").hasClass("current_page_item") || $(".page-item-14").hasClass("current_page_parent")) {
+            $(".menu-hover.residential").addClass("residential-hover");
+          } else {
+            $(".page-item-14").hover(function (e) {
+              $(".menu-hover.residential").addClass("residential-hover");
+            }, function (e) {
+              $(".menu-hover.residential").removeClass("residential-hover");
+            });
+          }
+
+          $(".residential", menuImages).hover(
+            function (e) {
+              $(".page-item-14 a").css({ "background-color": "#222", "color": "#FFF" });
+              $(".page-item-14 > ul").css({ 'visibility': 'visible', 'top': '100%' });
+            },
+            function (e) {
+              $(".page-item-14 a").css({ "background-color": "", "color": "" });
+              $(".page-item-14 > ul").css({ 'visibility': '', 'top': '' });
+            });
+
+          if ($(".page-item-52").hasClass("current_page_item") || $(".page-item-52").hasClass("current_page_parent")) {
+            $(".menu-hover.development").addClass("development-hover");
+          } else {
+            $(".page-item-52").hover(function (e) {
+              $(".menu-hover.development").addClass("development-hover");
+            }, function (e) {
+              $(".menu-hover.development").removeClass("development-hover");
+            });
+          }
+
+          $(".development", menuImages).hover(
+            function (e) {
+              $(".page-item-52 a").css({ "background-color": "#222", "color": "#FFF" });
+              $(".page-item-52 > ul").css({ 'visibility': 'visible', 'top': '100%' });
+            },
+            function (e) {
+              $(".page-item-52 a").css({ "background-color": "", "color": "" });
+              $(".page-item-52 > ul").css({ 'visibility': '', 'top': '' });
+            });
+
+          if ($(".page-item-24").hasClass("current_page_item") || $(".page-item-24").hasClass("current_page_parent")) {
+            $(".menu-hover.the-studio").addClass("the-studio-hover");
+          } else {
+            $(".page-item-24").hover(function (e) {
+              $(".menu-hover.the-studio").addClass("the-studio-hover");
+            }, function (e) {
+              $(".menu-hover.the-studio").removeClass("the-studio-hover");
+            });
+
+          }
+
+          $(".the-studio", menuImages).hover(
+            function (e) {
+              $(".page-item-24 a").css({ "background-color": "#222", "color": "#FFF" });
+              $(".page-item-24 > ul").css({ 'visibility': 'visible', 'top': '100%' });
+            },
+            function (e) {
+              $(".page-item-24 a").css({ "background-color": "", "color": "" });
+              $(".page-item-24 > ul").css({ 'visibility': '', 'top': '' });
+            });
+
+          if ($(".page-item-66").hasClass("current_page_item") || $(".page-item-66").hasClass("current_page_parent")) {
+            $(".menu-hover.commercial").addClass("commercial-hover");
+          } else {
+            $(".page-item-66").hover(function (e) {
+              $(".menu-hover.commercial").addClass("commercial-hover");
+            }, function (e) {
+              $(".menu-hover.commercial").removeClass("commercial-hover");
+            });
+          }
+
+          $(".commercial", menuImages).hover(
+            function (e) {
+              $(".page-item-66 a").css({ "background-color": "#222", "color": "#FFF" });
+              $(".page-item-66 > ul").css({ 'visibility': 'visible', 'top': '100%' });
+            },
+            function (e) {
+              $(".page-item-66 a").css({ "background-color": "", "color": "" });
+              $(".page-item-66 > ul").css({ 'visibility': '', 'top': '' });
+            });
+
+          if ($(".page-item-76").hasClass("current_page_item") || $(".page-item-76").hasClass("current_page_parent")) {
+            $(".menu-hover.media").addClass("media-hover");
+          } else {
+            $(".page-item-76").hover(function (e) {
+              $(".menu-hover.media").addClass("media-hover");
+            }, function (e) {
+              $(".menu-hover.media").removeClass("media-hover");
+            });
+
+          }
+
+          $(".media", menuImages).hover(
+            function (e) {
+              $(".page-item-76 a").css({ "background-color": "#222", "color": "#FFF" });
+              $(".page-item-76 > ul").css({ 'visibility': 'visible', 'top': '100%' });
+            },
+            function (e) {
+              $(".page-item-76 a").css({ "background-color": "", "color": "" });
+              $(".page-item-76 > ul").css({ 'visibility': '', 'top': '' });
+            });
+          });
         </script>
     </body>
     </html>
