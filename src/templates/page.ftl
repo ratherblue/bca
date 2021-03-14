@@ -53,7 +53,7 @@
       <title>${title}</title>
       <@defaultMetaTags />
       <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" type="text/css" href="/bca/css/style.css">
       <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     </head>
     <body<#if bodyClass?has_content> class="${bodyClass}"</#if> itemscope itemtype="${itemtype}">
