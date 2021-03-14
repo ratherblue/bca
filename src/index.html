@@ -1,7 +1,48 @@
-<#ftl strip_text=true />
+<#ftl strip_text=true>
 
 <@page.page sitemap={ "priority": "1", "changefreq": "weekly" }>
   <#compress>
-    Hello, world
+  <div id="featured" class="grid col-940">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <a href="${pp.home}commercial/solterra/">
+            <img src="${pp.home}images/2013/06/solterra_2.jpg">
+          </a>
+        </li>
+  
+        <li>
+          <a href="${pp.home}residential/heather-lane/">
+            <img src="${pp.home}images/2017/09/Heather-Lane-1.jpg">
+          </a>
+        </li>
+  
+        <li>
+          <a href="${pp.home}commercial/park-101/" style="display: block; height: 380px; overflow: hidden">
+            <img src="${pp.home}images/2017/09/Park1.jpg">
+          </a>
+        </li>
+  
+        <li>
+          <a href="${pp.home}residential/santa-fe-drive/">
+            <img src="${pp.home}images/2018/07/SantaFeMain.jpg">
+          </a>
+        </li>
+  
+        <li>
+          <a href="${pp.home}commercial/sema-4/">
+            <img src="${pp.home}images/2015/11/SEMA4-hero-03.jpg">
+          </a>
+        </li>
+  
+  
+        <li>
+          <a href="${pp.home}residential/coast-blvd/">
+            <img src="${pp.home}images/2019/11/8.jpg">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
   </#compress>
 </@page.page>

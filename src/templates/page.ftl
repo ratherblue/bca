@@ -52,6 +52,9 @@
       <@charset />
       <title>${title}</title>
       <@defaultMetaTags />
+      <script src="${pp.home}js/jquery.js?ver=1.12.4"></script>
+      <script src="${pp.home}js/jquery-migrate.min.js?ver=1.4.1"></script>
+      <script src="${pp.home}js/responsive-modernizr.js?ver=2.6.1"></script>
       <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="${pp.home}css/style.css">
       <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -62,7 +65,7 @@
         <div id="header">
           <@header.header />
         </div>
-        <div id="wrapper" class="clearfix">
+        <div id="wrapper" class="clearfix page-parent">
           <div id="content-full" class="grid col-940">
             </#compress><#nested /><#compress>
           </div>
@@ -70,8 +73,17 @@
       </div>
       <#-- footer -->
       <@footer.wrapper />
-      <script src="${pp.home}js/jquery-3.6.0.min.js"></script>
+      <script src="${pp.home}js/responsive-scripts.js?ver=1.2.3"></script>
+      <script src="${pp.home}js/responsive-plugins.js?ver=1.2.3"></script>
+      <!--<script src="${pp.home}js/wp-embed.min.js?ver=5.1.8"></script>-->
+      <script src="${pp.home}js/jquery.flexslider-min.js?ver=2.0"></script>
       <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+          $('.flexslider').flexslider({
+            animation: "fade"
+          });
+        });
+
         jQuery(document).ready(function($) {
           var targetImage = $(".attachment-post-thumbnail")[0];
 
