@@ -14,7 +14,6 @@
               <a class="contact-email" href="mailto:info@brianchurcharchitecture.com">info@brianchurcharchitecture.com</a>
             </div><!-- end of col-540 -->
             <div class="grid col-220 fit">
-              <ul class="social-icons" style="display:none"> <li class="twitter-icon"><a href="http://www.twitter.com/"><img src="https://brianchurcharchitecture.com/wp-content/themes/responsive/icons/twitter-icon.png" width="24" height="24" alt="Twitter"></a></li><li class="facebook-icon"><a href="http://www.facebook.com/"><img src="https://brianchurcharchitecture.com/wp-content/themes/responsive/icons/facebook-icon.png" width="24" height="24" alt="Facebook"></a></li><li class="pinterest-icon"><a href="http://www.pinterest.com/"><img src="https://brianchurcharchitecture.com/wp-content/themes/responsive/icons/pinterest-icon.png" width="24" height="24" alt="Pinterest"></a></li></ul><!-- end of .social-icons -->         
             </div>
           </div><!-- end of col-940 -->
           <div class="grid col-300 copyright">
